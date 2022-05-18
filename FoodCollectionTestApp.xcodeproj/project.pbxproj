@@ -13,6 +13,7 @@
 		6CD9CF43283545C200F36B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9CF41283545C200F36B00 /* Main.storyboard */; };
 		6CD9CF45283545C400F36B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9CF44283545C400F36B00 /* Assets.xcassets */; };
 		6CD9CF48283545C400F36B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9CF46283545C400F36B00 /* LaunchScreen.storyboard */; };
+		6CD9CF50283545E400F36B00 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6CD9CF4F283545E400F36B00 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6CD9CF44283545C400F36B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD9CF47283545C400F36B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CD9CF49283545C400F36B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD9CF4F283545E400F36B00 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6CD9CF44283545C400F36B00 /* Assets.xcassets */,
 				6CD9CF46283545C400F36B00 /* LaunchScreen.storyboard */,
 				6CD9CF49283545C400F36B00 /* Info.plist */,
+				6CD9CF4F283545E400F36B00 /* .gitignore */,
 			);
 			path = FoodCollectionTestApp;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD9CF50283545E400F36B00 /* .gitignore in Resources */,
 				6CD9CF48283545C400F36B00 /* LaunchScreen.storyboard in Resources */,
 				6CD9CF45283545C400F36B00 /* Assets.xcassets in Resources */,
 				6CD9CF43283545C200F36B00 /* Main.storyboard in Resources */,
