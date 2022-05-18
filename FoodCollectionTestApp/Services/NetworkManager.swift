@@ -20,9 +20,6 @@ final class NetworkManager {
                 return
             }
             
-            guard let dataString = String(data: data, encoding: .utf8) else { return }
-            print(dataString)
-            
             do {
                 let data = try JSONDecoder().decode(FoodModel.self, from: data)
                 DispatchQueue.main.async {

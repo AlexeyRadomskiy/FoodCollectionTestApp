@@ -5,6 +5,12 @@
 //  Created by Alexey on 18.05.2022.
 //
 
+import UIKit
+
+enum Link: String {
+    case FoodApi = "https://api.jsonbin.io/b/620ca6bc1b38ee4b33bd9656"
+}
+
 struct FoodModel: Decodable {
     let sections: [CurrentData]
 }
@@ -28,6 +34,9 @@ struct ImageData: Decodable {
     }
 }
 
-enum Link: String {
-    case FoodApi = "https://api.jsonbin.io/b/620ca6bc1b38ee4b33bd9656"
+struct Constants {
+    static let leftDistanceToView: CGFloat = 16
+    static let rightDistanceToView: CGFloat = 16
+    static let sectionsMinimumLineSpacing: CGFloat = 16
+    static let sectionsItemWidth = (UIScreen.main.bounds.width - Constants.leftDistanceToView - Constants.rightDistanceToView - (Constants.sectionsMinimumLineSpacing / 2)) / 2
 }
