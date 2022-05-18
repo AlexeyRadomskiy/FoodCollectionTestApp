@@ -14,8 +14,4 @@ extension UIImageView {
         let url = URL(string: urlString)
         kf.setImage(with: url)
     }
-    
-    func loadImage(url: URL) {
-        kf.setImage(with: url)
-    }
 }

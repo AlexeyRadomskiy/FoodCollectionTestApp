@@ -65,7 +65,6 @@ class FoodCollectionViewCell: UICollectionViewCell {
     
     private func setupImageView() {
         imageView.layer.borderWidth = 2.0
-        imageView.layer.cornerRadius = 10
         imageView.layer.masksToBounds = true
     }
     

@@ -97,7 +97,6 @@ extension SectionsTableViewCell: UICollectionViewDataSource {
         
         let info = items[indexPath.row]
         cell.imageView.loadImage(info.image.oneX)
-        cell.imageView.kf.indicatorType = .activity
         cell.label.text = info.title
         cell.backgroundColor = .clear
         
